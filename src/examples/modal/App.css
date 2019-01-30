@@ -1,0 +1,26 @@
+.App{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-container{
+  width: 500px;
+  margin-top: 300px;
+}
+
+.App-button{
+  width: 100%;
+}
+
+.App-title{
+  flex-flow: row;
+}
+
+.App-title span{
+  flex-grow: 1;
+}
+.App-title input{
+  flex-grow: 3;
+}
